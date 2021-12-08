@@ -6,4 +6,6 @@
 
 [SearchMe - Backups Repository](https://github.com/aarikpokras/SearchMe-Backups)
 
-[Home](/index.md)
+[SearchMe In This Window](https://www.aarikpokras.github.io/searchme/app-searchme_2)
+
+[Home](https://www.aarikpokras.github.io)
