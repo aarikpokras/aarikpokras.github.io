@@ -1,6 +1,6 @@
-## Aarik Pokras
+# Aarik Pokras
 
-# Links
+### Links
 
 [SearchMe](https://searchmebrowser.com/)
 
