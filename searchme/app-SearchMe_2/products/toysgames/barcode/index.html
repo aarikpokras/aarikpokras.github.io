@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <link
+    rel="icon"
+    href="https://cdn.glitch.me/dc079af4-13a4-4678-aae8-39dd2b9664af%2Fimage.png?v=1637192984273"
+  />
+  <meta charset="UTF-8" />
+  <meta name="description" content="SearchMe Barcode Generator" />
+  <meta name="keywords" content="Barcode generator, SearchMe" />
+  <meta name="author" content="Aarik Pokras" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SearchMe Barcode Generator</title>
+</head>
+<button onclick="barcode()">Generate my barcode</button>
+<h1 id="before_text"></h1>
+<br />
+<h1 id="after_text"></h1>
+<script>
+  function barcode() {
+    var bar = prompt("What text do you want to turn into a barcode?");
+    var a = document.getElementById("after_text");
+    var b = document.getElementById("before_text");
+
+    a.innerHTML = bar;
+    b.innerHTML = bar;
+    
+    if(bar == "clr") {
+      a.innerHTML = "";
+      b.innerHTML = "";
+    }
+  }
+</script>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap");
+
+  #after_text {
+    font-family: "Libre Barcode 39", cursive;
+    font-size: auto;
+  }
+</style>

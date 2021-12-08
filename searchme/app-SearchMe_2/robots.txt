@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /analytics.html
+Disallow: /terms.html
+Disallow: /privacypolicy.html
+Allow: /more.html
+Allow: /script.js
+Allow: /sitemap.xml
+Allow: /style-more.css
+Allow: /style.css
+Allow: /README.md
+Allow: /CODE_OF_CONDUCT.txt
+Disallow: /.env
+
+Sitemap: https://searchme.glitch.me/sitemap.xml

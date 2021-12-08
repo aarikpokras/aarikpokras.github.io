@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<link
+      rel="icon"
+      href="https://www.freelogodesign.org/file/app/client/thumb/2c3e0f97-d24d-46d8-9f82-ce99f0987d04_200x200.png?1609863957962"
+    />-->
+    <link
+      rel="icon"
+      href="https://www.freelogodesign.org/file/app/client/thumb/515f3766-1c88-4743-bb0a-b6aada5aaa82_200x200.png?1609892016724"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- See archive @ https://sites.google.com/view/smcs--archive/home -->
+
+    <title>Learn About SearchMe - SearchMe</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style-more.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <p>
+      SearchMe is a homemade search engine made by Aarik Pokras on January 1st,
+      2021. It gathers all of the information on the web for the search query
+      you enter and puts it all on one page. SearchMw does not track or store your
+      searches. SearchMe is now in its Epsilon 1.2 &lpar;5.1.2&rpar; Version.
+    </p>
+    <a href="/index.html">Go back to SearchMe</a>
+  </body>
+</html>

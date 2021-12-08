@@ -1,0 +1,20 @@
+article {
+  font-family: serif;
+  background: white;
+  color: #003;
+}
+AUTHOR {
+  font-size: large;
+  margin: 1em 0;
+}
+HEADLINE {
+  font-size: x-large;
+  margin-bottom: 1em;
+}
+PARA {
+  text-indent: 1em;
+  text-align: justify;
+}
+INSTRUMENT {
+  font-style: italic;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <link
+    rel="icon"
+    href="https://cdn.glitch.me/dc079af4-13a4-4678-aae8-39dd2b9664af%2Fimage.png?v=1637192984273"
+  />
+  <meta charset="UTF-8" />
+  <meta name="description" content="SearchMe fake lock screen" />
+  <meta name="keywords" content="Fake lock screen, SearchMe" />
+  <meta name="author" content="Aarik Pokras" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SearchMe Fake Lock Screen</title>
+</head>
+<img
+  src="https://cdn.glitch.me/dc079af4-13a4-4678-aae8-39dd2b9664af%2FSecureMe_logo.png?v=1638315897098"
+/>
+<br />
+<p>We have locked your screen for security reasons. Please sign in again.</p>
+<br />
+<input placeholder=" Username" />
+<br />
+<br />
+<input placeholder=" Password" type="password" />
+<button onclick = "login()">➔</button>
+
+<style>
+  input {
+    border-radius: 50px;
+    border: 0.5px grey solid;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  input:focus {
+    outline: none;
+  }
+  img {
+    width: 150px;
+    margin-left: auto;
+    margin-top: auto;
+  }
+  button {
+    border-radius: 50px;
+    border: 0.5px grey solid;
+    width: 23px;
+    height: 20px;
+  }
+</style>
+
+<script>
+  function login() {
+    document.write("Incorrect username or password. you have been locked out.");
+  }
+</script>

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #8ac4ff !important;
+  color: black !important;
+}
+a {
+  cursor: pointer;
+}
+.gcse-search {
+  cursor: alias;
+  color: black;
+}
+a,
+p {
+  color: white;
+}
+span {
+  color: black;
+}
+#gcse-script > span{
+  color: green;
+}
+#sr {
+  color: black;
+}
+.footer {
+  color: white;
+  background-color: #FF9555;
+  text-align: center;
+  height: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  /*   position: fixed; */
+  /*   display: inline; */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myBtn {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #FF9555;
+  color: white;
+  border: solid 0.5px white;
+  cursor: pointer;
+}
+button {
+  background-color: #FF9555;
+  color: white;
+  border: solid 0.5px white;
+}
+#clock {
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+}
+a[href="/ee.html"] {
+  text-decoration: none;
+  cursor: vertical-text;
+}
+a[href="/privacypolicy"],
+a[href="/terms"],
+#open_preferences_center {
+  overflow: hidden !important;
+}
