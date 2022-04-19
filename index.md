@@ -3,7 +3,7 @@
 ### Links
 
 
-[SearchMe](https://searchmebrowser.com/)
+[SearchMe](https://searchme.one/)
 
 [myTech CodePen](https://codepen.io/my-tech)
 
