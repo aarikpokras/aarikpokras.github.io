@@ -1,0 +1,26 @@
+/* img {
+  background-image: url(https://i.ibb.co/cDSxwNZ/Search-Me-logo-bkgrnd.png);
+} */
+
+body {
+  font-family: courier; /* background-image: url(http://clipart-library.com/img/885073.gif); */
+}
+a {
+  cursor: pointer;
+}
+.gcse-search {
+  cursor: alias;
+  color: black;
+}
+#dumpster_fire_2020 {
+  width: 500px;
+}
+span,
+p,
+a {
+  color: white;
+}
+#sr {
+  color: black;
+}
+

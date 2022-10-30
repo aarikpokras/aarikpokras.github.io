@@ -1,0 +1,21 @@
+<title>SearchMe Spell Check</title>
+<h3 style = "text-align: center;">SearchMe Spell Check</h3>
+<textarea spellcheck="false" id = "texta">type...</textarea>
+
+<style>
+  textarea{
+    resize: none;
+    width: 99%;
+    height: 90%;
+  }
+  textarea:focus{
+    text-decoration: red wavy underline;
+  }
+</style>
+<script>
+  function line() {
+    var texta = document.getElementById("texta").style.textDecoration = "red wavy underline"
+  }
+   const toOne = setTimeout(line, 3000);
+  
+</script>

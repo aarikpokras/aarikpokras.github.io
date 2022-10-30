@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <?xml-stylesheet href="/xmlstyle.css"?>
+
+
+<url>
+  <loc>http://searchme-2-0.glitch.me/</loc>
+  <lastmod>2022-10-26T00:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/portal</loc>
+  <lastmod>2022-07-30T19:14:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/help</loc>
+  <lastmod>2022-10-14T20:13:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/review</loc>
+  <lastmod>2022-10-13T19:24:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/devport.html</loc>
+  <lastmod>2022-10-18T23:01:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/more</loc>
+  <lastmod>2022-10-25T15:54:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/sm-news</loc>
+  <lastmod>2022-10-14T22:24:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/privacypolicy</loc>
+  <lastmod>2022-10-19T00:23:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/terms</loc>
+  <lastmod>2022-10-19T00:24:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/desktopshare</loc>
+  <lastmod>2022-10-17T18:40:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/index.html</loc>
+  <lastmod>2022-10-26T00:20:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://searchme-2-0.glitch.me/old</loc>
+  <lastmod>2022-10-13T12:56:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

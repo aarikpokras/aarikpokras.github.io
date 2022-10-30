@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<link
+      rel="icon"
+      href="https://www.freelogodesign.org/file/app/client/thumb/2c3e0f97-d24d-46d8-9f82-ce99f0987d04_200x200.png?1609863957962"
+    />-->
+    <link
+      rel="icon"
+      href="https://www.freelogodesign.org/file/app/client/thumb/515f3766-1c88-4743-bb0a-b6aada5aaa82_200x200.png?1609892016724"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- See archive @ https://sites.google.com/view/smcs--archive/home -->
+
+    <title>SearchMe 5.1.2</title>
+
+    <!-- import the webpage's stylesheet -->
+    <!--     <link rel="stylesheet" href="style.css" /> -->
+
+    <!-- import the webpage's javascript file -->
+    <!--     <script src="script.js" defer></script> -->
+  </head>
+  <body>
+    <center>
+      <!--<img
+        src="https://www.freelogodesign.org/file/app/client/thumb/2c3e0f97-d24d-46d8-9f82-ce99f0987d04_200x200.png?1609863957962"
+      />-->
+      <img
+        src="https://cdn.glitch.global/61d3d2e7-a76d-4507-9b9f-66a2460367b9/sm-old-logo.png?v=1665257455543"
+        alt="sm-old-logo"
+      />
+      <span id="sr">
+        <div class="gcse-search">
+          <script
+            async
+            src="https://cse.google.com/cse.js?cx=620e706bc683126eb"
+          ></script>
+          <div class="gcse-search"></div>
+        </div>
+      </span>
+    </center>
+    <span id="m"></span> <span id="d"></span> <span id="y"></span>
+    <p id="tww"></p>
+    <p>
+      <a href="/more.html">Learn about SearchMe</a>
+    </p>
+    <a href="//www.youtube.com/watch?v=t9ZdL0j8QGA" target="_blank">
+      <img
+        src="https://i.ibb.co/2K1wVkR/dumpsterfire-sm-yt.png"
+        id="dumpster_fire_2020"
+      />
+      <br />
+      2020 Dumpster Fire Video - Watch Now</a
+    >
+  </body>
+</html>
+<style>
+  /* img {
+  background-image: url(https://i.ibb.co/cDSxwNZ/Search-Me-logo-bkgrnd.png);
+} */
+
+  body {
+    font-family: courier; /* background-image: url(http://clipart-library.com/img/885073.gif); */
+  }
+  a {
+    cursor: pointer;
+  }
+  .gcse-search {
+    cursor: alias;
+    color: black;
+  }
+  #dumpster_fire_2020 {
+    width: 500px;
+  }
+  span,
+  p,
+  a {
+    color: black;
+  }
+  #sr {
+    color: black;
+  }
+  img[alt='sm-old-logo']{
+    width: 200px;
+  }
+</style>
+<script>
+  console.log("Welcome to SearchMe!");
+  var p = document.getElementById("m");
+  var x = document.getElementById("d");
+  var q = document.getElementById("y");
+  var n = document.getElementById("tww");
+  var k = new Date();
+  var months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  p.innerHTML = months[k.getMonth()];
+  x.innerHTML = k.getDate() + ", ";
+  q.innerHTML = k.getFullYear();
+  /*alert("Happy New Year!");*/
+
+  if (p.innerHTML == "January") {
+    n.innerHTML = "Happy New Year!";
+    document.body.style.backgroundImage =
+      "url(https://i.pinimg.com/originals/56/73/6e/56736e99269e9e1fe8eed4b8b911644e.gif)";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat";
+  }
+  if (p.innerHTML == "February") {
+    document.body.style.backgroundColor = "red";
+    document.body.style.color = "white";
+    document.body.style.backgroundImage = "none";
+  }
+  if (p.innerHTML == "March") {
+    document.body.style.backgroundColor = "green";
+    document.body.style.color = "black";
+    document.body.style.backgroundImage = "none";
+  }
+  if (location.protocol != "https:") {
+    location.href =
+      "https:" +
+      window.location.href.substring(window.location.protocol.length);
+  }
+</script>

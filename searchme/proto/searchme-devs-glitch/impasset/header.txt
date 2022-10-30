@@ -1,0 +1,3 @@
+MAKE SURE TO LINK TO CSS FILE
+
+<header id = "page-header"><strong><a href = "/portal" class = "header-link">Portal</a><a href = "mailto:help@searchme.one" class = "header-link">Help</a><a href = "https://searchme-web.blogspot.com/" class = "header-link">News</a><a class = "header-link" href = "/review">Rate us</a><a class = "header-link" id = "devport" href = "/devport.html">Developer Portal</a><a class = "header-link" href = "/more">More</a></strong></header>

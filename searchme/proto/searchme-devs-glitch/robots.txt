@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: teduncle/
+Disallow: sm-old/
+Disallow: extlinks/
+Disallow: impasset/
+Disallow: mema/
+Disallow: prototype/
+Disallow: 9dm/
+Disallow: book/
