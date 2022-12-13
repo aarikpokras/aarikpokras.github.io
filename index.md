@@ -1,12 +1,7 @@
 # Aarik Pokras
 
-### Links
+### Cool Stuff
 
+[Stuff I've been working on](/stuff-ive-been-working-on)
 
-[SearchMe](https://searchme.one/)
-
-[myTech CodePen](https://codepen.io/my-tech)
-
-[Projects Page](/projects)
-
-[spectacleOS](https://github.com/aarikpokras/spectacleos)
+[SearchMe](https://searchme.one)
