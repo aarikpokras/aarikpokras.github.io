@@ -8,7 +8,7 @@
 
 [SearchMe](https://searchme.one)
 
-## Featured
+### Featured
 
 [spectacleOS](https://github.com/aarikpokras/spectacleos)
 
