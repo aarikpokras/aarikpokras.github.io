@@ -8,6 +8,8 @@
 
 [SearchMe](https://searchme.one)
 
+[spectacleOS Web](/specsweb)
+
 ### Featured
 
 [spectacleOS](https://github.com/aarikpokras/spectacleos)
