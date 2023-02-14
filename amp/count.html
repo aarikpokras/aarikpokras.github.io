@@ -1,0 +1,7 @@
+<div id = "visits"></div>
+<script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/github.com/aarikpokras?callback=cb"></script>
