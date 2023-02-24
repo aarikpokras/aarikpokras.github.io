@@ -8,10 +8,20 @@
 <div id="typing-text" class = "ty"></div>
 <div id = "tt2" class = "ty"></div>
   <div id = "br"></div>
+  <h3 id = "codehead">Projects</h3>
+  <a href = "https://github.com/aarikpokras/aarikos" id = "aarikos"><img src = "https://repository-images.githubusercontent.com/604308212/347bbe02-3310-42eb-b8ab-e5ea511f2dae" /><h4><span style = "font-weight: lighter;">The non-graphical OS of me :)</span></h4></a>
+<!--    -->
+  <br /><br />
+<!--    -->
+  <a href = "github.com/aarikpokras/cpp-auto-compiler" id = "amp"><img src = "https://img.shields.io/badge/amp-blue?style=for-the-badge&logo=c%2B%2B" /><h4><span style = "font-weight: lighter;">Automatically compiles C++ files with G++</span></h4></a>
   </div>
 </body>
 <style>
-  #br{height: 100vh;}
+  img[src='https://repository-images.githubusercontent.com/604308212/347bbe02-3310-42eb-b8ab-e5ea511f2dae']{width: 200px;}
+  a>h4{color: white;text-decoration: none;background-color: grey; padding: 10px;border-radius: 10px;}
+  a>h4:hover{text-decoration: underline;}
+  #codehead{color: #28fe14;}
+  #br{height: 80vh;}
 #spancon{
   padding: 200px;
 }
@@ -35,8 +45,8 @@ body{
 }
 </style>
 <script>
-    const text = "Hi, I'm Aarik Pokras,"; // the text you want to type out
-const delay = 100; // the delay between typing each character, in milliseconds
+    const text = "Hi, I'm Aarik Pokras,";
+const delay = 100;
 
 let i = 0;
 const typingEffect = setInterval(() => {
@@ -48,8 +58,8 @@ const typingEffect = setInterval(() => {
 
 function tt3() {
 document.getElementsByClassName("ty")[0].style.display = "block";
-const text2 = "Software Developer. "; // the text you want to type out
-const delay2 = 100; // the delay between typing each character, in milliseconds
+const text2 = "Software Developer. ";
+const delay2 = 100;
 
 let i2 = 0;
 const typingEffect2 = setInterval(() => {
