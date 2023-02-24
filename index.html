@@ -4,57 +4,57 @@
 <link rel = "apple-touch-icon" href = "https://avatars.githubusercontent.com/u/85502246?v=4">
 <body>
 <noscript>Please get JavaScript.</noscript>
-<h3 id = "me">Hi. I'm Aarik Pokras. (Hey, that's me!)<br /><span style = "font-size: 9pt;">My creative juices are flowing.</span></h3>
-<div id = "break"></div>
-<h3 style = "color: #c2372d; margin-left: 25%; font-family: 'Mukta', sans-serif;">Projects</h3>
-<div id = "projects-container">
-    <a href = "https://github.com/aarikpokras/aarikos"><span id = "specs"><img src = "https://repository-images.githubusercontent.com/604308212/347bbe02-3310-42eb-b8ab-e5ea511f2dae"></span></a>
-  <span style = "color: #c2372d; font-family: 'Mukta', sans-serif;" class = "specsdesc">A non-graphical, bootable operating system.<br /></span><br />
-  <a href = "https://github.com/aarikpokras/cpp-auto-compiler"><span id = "amp"><img src = "https://img.shields.io/badge/-amp-blue?style=for-the-badge&logo=c%2B%2B"></span></a>
-  <span style = "color: #c2372d; font-family: 'Mukta', sans-serif;" class = "ampdesc">Uses G++ to automatically compile up to two C++ programs downloaded from GitHub.<br /></span><br />
-</div>
+<div id = "spancon">
+<div id="typing-text" class = "ty"></div>
+<div id = "tt2" class = "ty"></div>
+  </div>
 </body>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+#spancon{
+  padding: 200px;
+}
+div{
+  font-family: monospace;
+  
+}
+#tt2::after{
+  font-family: sans-serif;
+  font-weight: 800;
+  content: '|';
+  animation: step-start infinite 1s blink;
+}
+@keyframes blink{
+  50%{opacity: 0;}
+}
+.ty{display: inline;}
 body{
-  transition: background-color 1s;
-}
-#me{
-  transition: margin-left 1s, margin-top 1s, color 1s;
-}
-#break{
-  height: 70vh;
-}
-#specs{
-  margin-left: 25%;
-}
-#specs > img{
-  width: 200px;
-}
-#amp{
-  margin-left: 25%;
-}
-#amp > img{
-  width: 200px;
-}
-img{
-  padding: 10px;
-}
-.specsdesc{
-  position: relative;
-  display: block;
-  margin-left: 25%;
-}
-.ampdesc{
-  display: block;
-  margin-left: 25%;
+  background-color: black;
+  color: #28fe14;
 }
 </style>
 <script>
-var me = document.getElementById("me");
-me.style.marginLeft = "25%";
-me.style.marginTop = "200px";
-me.style.fontFamily = "'Mukta', sans-serif";
-me.style.color = "#c2372d";
-document.body.style.backgroundColor = "black";
-</script>
+    const text = "Hi, I'm Aarik Pokras,"; // the text you want to type out
+const delay = 100; // the delay between typing each character, in milliseconds
+
+let i = 0;
+const typingEffect = setInterval(() => {
+  document.getElementById("typing-text").textContent += text[i];
+  i++;
+  if (i === text.length) clearInterval(typingEffect);
+}, delay);
+// 
+
+function tt3() {
+document.getElementsByClassName("ty")[0].style.display = "block";
+const text2 = "Software Developer. "; // the text you want to type out
+const delay2 = 100; // the delay between typing each character, in milliseconds
+
+let i2 = 0;
+const typingEffect2 = setInterval(() => {
+  document.getElementById("tt2").textContent += text2[i2];
+  i2++;
+  if (i2 === text2.length) clearInterval(typingEffect2);
+}, delay);
+}
+const tt9 = setTimeout(tt3, 2100)
+    </script>
