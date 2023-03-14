@@ -45,6 +45,10 @@ body{
 }
 </style>
 <script>
+  if (location.protocol != "https:") {
+  location.href =
+    "https:" + window.location.href.substring(window.location.protocol.length);
+} 
     const text = "Hi, I'm Aarik Pokras,";
 const delay = 100;
 
