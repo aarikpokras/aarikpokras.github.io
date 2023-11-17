@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<title>Aarik Pokras | Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<header>
+  <a href = "/x"><span class = "head-item">Home</span></a>
+  <span class = "head-item-sel">Projects</span>
+  <a href = "https://github.com/aarikpokras?tab=repositories"><span class = "head-item">GitHub</span></a>
+  <a href = "/stats"><span class = "head-item">Stats</span></a>
+  <a href = "/repos"><span class = "head-item">Repos</span></a>
+</header>
+<br />
+<!-- <div style = "background-color: #222222;height: 50px;width: 100vw;position: absolute;left:0; z-index: 5;color: white;font-family: 'Ubuntu', sans-serif;"><p align = "center">aarik@ubuntu:~</p> -->
+<!-- </div> -->
+<div id = "page-con">
+  <div id = "content">
+    
+    <img src = "https://i.ibb.co/kJYhCVs/gtk3rb.jpg" width = "160" style = "position: relative;margin-top: 0px;" />
+    <span class = "ub_bold _14pt _10pad abs"><a href = "https://github.com/aarikpokras/Gtk3-rb" class = "a_boldub">Gtk3-rb</a></span>
+    <span class = "ub_reg _10pad abs proj_desc">A CLI tool written in Ruby that can display specified styles of GTK+ dialogs</span>
+    <br />
+    
+    <img src = "https://i.ibb.co/47TDNr3/gksudo.jpg" width = "160" style = "position: relative;margin-top: 0px;" />
+    <span class = "ub_bold _14pt _10pad abs"><a href = "https://github.com/aarikpokras/gksudo" class = "a_boldub">gksudo</a></span>
+    <span class = "ub_reg _10pad abs proj_desc">Prompts graphically for the user's password, then executes passed commands as root.</span>
+    <br />
+    
+    <img src = "https://i.ibb.co/fvLzQd9/htmledi.jpg" width = "160" />
+    <span class = "ub_bold _14pt _10pad abs"><a href = "https://github.com/aarikpokras/html-editor" class = "a_boldub">HTML Editor</a></span>
+    <span class = "ub_reg _10pad abs proj_desc">A simplistic HTML, CSS, and JavaScript editor.</span>
+    <br />
+    
+    <img src = "https://i.ibb.co/rmmWGnV/tyxa.jpg" width = "160" />
+    <span class = "ub_bold _14pt _10pad abs"><a href = "https://github.com/tymaker-team/tyxa" class = "a_boldub">tyxa</a></span>
+    <span class = "ub_reg _10pad abs proj_desc">Automates making thank-you notes graphically using JXA. Part of <a href = "https://github.com/tymaker-team" class = "a_white">tymaker</a>.</span>
+    <br />
+    
+    <img src = "https://i.ibb.co/W5XGbfb/cout.jpg" width = "160" />
+    <span class = "ub_bold _14pt _10pad abs"><a href = "https://github.com/aarikpokras/cppc" class = "a_boldub">cppc</a></span>
+    <span class = "ub_reg _10pad abs proj_desc">A C++ command line - no boilerplate required</span>
+  </div>
+</div>
+<style>
+  .proj_desc{
+    margin-top: 23px;
+  }
+  ._10pad{
+    padding: 10px;
+  }
+  .abs{
+    position: absolute;
+  }
+  ._14pt{
+    font-size: 14pt;
+  }
+  .a_white{
+    color: white;
+  }
+  .a_boldub{
+    color: #85DC2F;
+  }
+  a{
+    text-decoration: underline;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .ub_bold{
+    font-weight: 800;
+    color: #85DC2F;
+  }
+  .ub_reg{
+    font-weight: 400;
+    color: white;
+  }
+  #content{
+    font-family: 'Ubuntu Mono', monospace;
+/*     background-color: #FAF9F6; */
+/*     height: 300px; */
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    z-index: -5;
+    left: 63px;
+    top: 36px;
+  }
+  #page-con{
+    z-index: 0;
+    background-color: #2D0922;
+    height: 220%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 27px;
+  }
+  header{
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 27px;
+  }
+  .head-item-sel{
+    padding: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    cursor: default;
+    background-color: #2D0922;
+    color: white;
+    font-weight: 800;
+    user-select: none;
+  }
+  header>a{
+    text-decoration: none;
+    color: black;
+  }
+  .head-item{
+    padding: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+  }
+  .head-item:hover{
+    background-color: #2C7C86;
+    color: white;
+  }
+</style>
