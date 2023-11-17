@@ -6,14 +6,8 @@
 <noscript>Please get JavaScript.</noscript>
 <div id = "spancon">
 <div id="typing-text" class = "ty"></div>
-<div id = "tt2" class = "ty"></div>
-  <div id = "br"></div>
-  <h3 id = "codehead">Projects</h3>
-  <a href = "https://github.com/aarikpokras/aarikos" id = "aarikos"><img src = "https://repository-images.githubusercontent.com/604308212/347bbe02-3310-42eb-b8ab-e5ea511f2dae" /><h4><span style = "font-weight: lighter;">The non-graphical OS of me :)</span></h4></a>
-<!--    -->
-  <br /><br />
-<!--    -->
-  <a href = "https://github.com/aarikpokras/cpp-auto-compiler" id = "amp"><img src = "https://img.shields.io/badge/amp-blue?style=for-the-badge&logo=c%2B%2B" /><h4><span style = "font-weight: lighter;">Automatically compiles C++ files with G++</span></h4></a>
+<div id = "tt2" class = "ty"></div><br />
+  <div id = "tt3" class = "ty"></div>
   </div>
 </body>
 <style>
@@ -58,7 +52,7 @@ const typingEffect = setInterval(() => {
   i++;
   if (i === text.length) clearInterval(typingEffect);
 }, delay);
-// 
+// full 4300 (include wait)
 
 function tt3() {
 document.getElementsByClassName("ty")[0].style.display = "block";
@@ -72,5 +66,18 @@ const typingEffect2 = setInterval(() => {
   if (i2 === text2.length) clearInterval(typingEffect2);
 }, delay);
 }
+function tt4() {
+  const text3 = "##############"
+  let i3 = 0
+  const typEff3 = setInterval(() => {
+    document.getElementById("tt3").textContent += text3[i3];
+    i3++
+    if (i3 === text3.length) clearInterval(typEff3);
+  }, delay)
+}
 const tt9 = setTimeout(tt3, 2100)
+const ttC = setTimeout(tt4, 4200)
+setTimeout(function () {
+  location.href = "/projects"
+}, 6700);
     </script>
