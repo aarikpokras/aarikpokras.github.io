@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<title>Aarik Pokras | Stats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<header>
+  <a href = "/x"><span class = "head-item">Home</span></a>
+  <a href = "/projects"><span class = "head-item">Projects</span></a>
+  <a href = "https://github.com/aarikpokras?tab=repositories"><span class = "head-item">GitHub</span></a>
+  <span class = "head-item-sel">Stats</span>
+  <a href = "/repos"><span class = "head-item">Repos</span></a>
+</header>
+<div id = "page-con">
+  <div id = "content">
+    <a href = "https://github.com/aarikpokras">
+    <img src = "https://github-readme-stats.vercel.app/api?username=aarikpokras&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height = "300" align = "center" />
+    <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=aarikpokras&hide=html, rich text format&card_width=320" height = "300" align = "center" />
+    <br />
+      <h3 style = "color: #2F80EE;font-family: sans-serif;padding-left: 20px;" align = "center">Tech Stack</h3></a>
+    <div align = "center">
+    <img src = "https://skillicons.dev/icons?i=raspberrypi,linux,regex,git,emacs,codepen,github,arduino,cmake,gtk&perline=5&theme=light"/><br />
+  <img src = "https://i.ibb.co/qyRghzZ/archli.png" style = "width:48px;"/>
+      <br />
+      <img src = "https://skillicons.dev/icons?i=bash,pwsh,ruby,fortran,cpp,c,md,html,css,js,latex,java,julia,perl,py&perline=5" /><br />
+      <img src = "https://skillicons.dev/icons?i=r,angular,nodejs&perline=5" />
+    </div>
+  </div>
+</div>
+<style>
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  #content{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FAF9F6;
+/*     height: 300px; */
+    padding: 20px;
+/*     width: 70%; */
+    position: absolute;
+    z-index: -5;
+    left: 63px;
+    top: 36px;
+  }
+  #page-con{
+    z-index: 0;
+    background-color: #2C7C86;
+    height: 280%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 36px;
+  }
+  header{
+    z-index: 5;
+    position: fixed;
+    top: 0.6;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+  }
+  .head-item-sel{
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+    background-color: #2C7C86;
+    color: white;
+    user-select: none;
+  }
+  .head-item{
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    user-select: none;
+  }
+  .head-item:hover{
+    background-color: #2C7C86;
+    color: white;
+  }
+</style>
