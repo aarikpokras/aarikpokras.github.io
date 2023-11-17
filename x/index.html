@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<title>Aarik Pokras | Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<header>
+  <span class = "head-item-sel">Home</span>
+  <a href = "/projects"><span class = "head-item">Projects</span></a>
+  <a href = "https://github.com/aarikpokras?tab=repositories"><span class = "head-item">GitHub</span></a>
+  <a href = "/stats"><span class = "head-item">Stats</span></a>
+  <a href = "/repos"><span class = "head-item">Repos</span></a>
+</header>
+<div id = "page-con">
+  <div id = "content">
+    Hi! I'm Aarik. I mostly use HTML, CSS and JavaScript for web, and bash in the shell. I'm experienced in Linux and recently started using Arch Linux.
+    <br /><br />
+    <a href = "https://github.com/aarikpokras"><img src = "https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square" /></a> <a href = "https://gist.github.com/aarikpokras"><img src = "https://img.shields.io/badge/-Gists-black?logo=github&style=flat-square" /></a> <a href = "https://codepen.io/my-tech"><img src = "https://img.shields.io/badge/-CodePen-3D4048?logo=codepen&style=flat-square" /></a> <a href = "https://g.dev/aarikpokras"><img src = "https://img.shields.io/badge/-Google%20Developers-1B73E8?logo=google&style=flat-square&logoColor=white" /></a> <a href = "https://glitch.com/@aarikpokras100"><img src = "https://img.shields.io/badge/-Glitch-FE7697?logo=glitch&style=flat-square" /></a>
+  </div>
+</div>
+<style>
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  #content{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FAF9F6;
+/*     height: 300px; */
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    z-index: -5;
+    left: 63px;
+    top: 36px;
+  }
+  #page-con{
+    z-index: 0;
+    background-color: #2C7C86;
+    height: 90%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 36px;
+  }
+  header{
+    z-index: 5;
+    position: fixed;
+    top: 0.6;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+  }
+  .head-item-sel{
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+    background-color: #2C7C86;
+    color: white;
+    user-select: none;
+  }
+  .head-item{
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    user-select: none;
+  }
+  .head-item:hover{
+    background-color: #2C7C86;
+    color: white;
+  }
+</style>
