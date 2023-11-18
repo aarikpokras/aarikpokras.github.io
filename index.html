@@ -3,17 +3,19 @@
 <link rel = "icon" href = "https://avatars.githubusercontent.com/u/85502246?v=4" />
 <link rel = "apple-touch-icon" href = "https://avatars.githubusercontent.com/u/85502246?v=4">
 <body>
-<noscript>Please get JavaScript.</noscript>
+<noscript>It looks like you don't have JavaScript. Please turn that on if you want to see a cool little animation.</noscript>
 <div id = "spancon">
 <div id="typing-text" class = "ty"></div>
 <div id = "tt2" class = "ty"></div><br />
-  <div id = "tt3" class = "ty"></div>
+  <a href = "/projects"><div id = "tt3" class = "ty"></div></a>
   </div>
 </body>
 <style>
   img[src='https://repository-images.githubusercontent.com/604308212/347bbe02-3310-42eb-b8ab-e5ea511f2dae']{width: 200px;}
   a>h4{color: white;text-decoration: none;background-color: grey; padding: 10px;border-radius: 10px;}
   a>h4:hover{text-decoration: underline;}
+  a{color: #28fe14;}
+  a:hover{text-decoration: underline dotted;}
   #codehead{color: #28fe14;}
   #br{height: 80vh;}
 #spancon{
@@ -67,17 +69,14 @@ const typingEffect2 = setInterval(() => {
 }, delay);
 }
 function tt4() {
-  const text3 = "##############"
+  const text3 = "See my projects"
   let i3 = 0
   const typEff3 = setInterval(() => {
-    document.getElementById("tt3").textContent += text3[i3];
+    document.getElementById("tt3").innerHTML += text3[i3];
     i3++
     if (i3 === text3.length) clearInterval(typEff3);
   }, delay)
 }
 const tt9 = setTimeout(tt3, 2100)
 const ttC = setTimeout(tt4, 4200)
-setTimeout(function () {
-  location.href = "/projects"
-}, 6700);
     </script>
