@@ -6,7 +6,7 @@
 <noscript>It looks like you don't have JavaScript. Please turn that on if you want to see a cool little animation.</noscript>
 <div id = "spancon">
 <div id="typing-text" class = "ty"></div>
-<div id = "tt2" class = "ty"></div><br />
+<div id = "tt2" class = "ty"></div>
   <a href = "/projects"><div id = "tt3" class = "ty"></div></a>
   </div>
 </body>
@@ -25,7 +25,7 @@ div{
   font-family: monospace;
   
 }
-#tt2::after{
+#tt3::after{
   font-family: sans-serif;
   font-weight: 800;
   content: '|';
@@ -38,6 +38,7 @@ div{
 body{
   background-color: black;
   color: #28fe14;
+  font-size: 15pt;
 }
 </style>
 <script>
@@ -69,6 +70,8 @@ const typingEffect2 = setInterval(() => {
 }, delay);
 }
 function tt4() {
+  const elem = document.createElement("br");
+  document.getElementById("tt2").appendChild(elem);
   const text3 = "See my projects"
   let i3 = 0
   const typEff3 = setInterval(() => {
