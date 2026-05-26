@@ -21,12 +21,14 @@
   </div>
 </div>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
   a{
     text-decoration: none;
     color: black;
   }
   #content{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     background-color: #FAF9F6;
 /*     height: 300px; */
     padding: 20px;
@@ -35,40 +37,45 @@
     z-index: -5;
     left: 63px;
     top: 36px;
+    border: 1px solid white;
+    background-color: black;
+    color: #28ff12;
   }
   #page-con{
     z-index: 0;
-    background-color: #2C7C86;
+    background-color: black;
     height: 90%;
     width: 100vw;
     position: absolute;
     left: 0;
-    top: 36px;
+    top: 27px;
   }
   header{
     z-index: 5;
     position: fixed;
-    top: 0.6;
+    top: 0;
     left: 0;
     background-color: white;
     width: 100vw;
   }
   .head-item-sel{
-    padding: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    padding: 10.3px;
+    font-family: 'Ubuntu Mono', sans-serif;
     cursor: default;
-    background-color: #2C7C86;
+    background-color: black;
     color: white;
     user-select: none;
+    font-weight: 800;
   }
   .head-item{
     padding: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     cursor: pointer;
     user-select: none;
   }
   .head-item:hover{
-    background-color: #2C7C86;
-    color: white;
+    background-color: white;
+    color: #28ff12;
+    font-family: 'Ubuntu Mono', monospace;
   }
 </style>
