@@ -16,10 +16,8 @@
 <div id = "page-con">
   <div id = "content">
     <a href = "https://github.com/aarikpokras">
-    <img src = "https://github-readme-stats.vercel.app/api?username=aarikpokras&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height = "300" align = "center" />
-    <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=aarikpokras&hide=html, rich text format&card_width=320" height = "300" align = "center" />
+      <h3 style = "color: #28ff12;font-family: 'Ubuntu Mono', monospace;" align = "center">Tech Stack</h3></a>
     <br />
-      <h3 style = "color: #2F80EE;font-family: sans-serif;padding-left: 20px;" align = "center">Tech Stack</h3></a>
     <div align = "center">
     <img src = "https://skillicons.dev/icons?i=raspberrypi,linux,regex,git,emacs,codepen,github,arduino,cmake,gtk&perline=5&theme=light"/><br />
   <img src = "https://i.ibb.co/qyRghzZ/archli.png" style = "width:48px;"/>
@@ -30,13 +28,17 @@
   </div>
 </div>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  body{
+    font-family: 'Ubuntu Mono', monospace;
+  }
   a{
     text-decoration: none;
     color: black;
   }
   #content{
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: #FAF9F6;
+    background-color: black;
 /*     height: 300px; */
     padding: 20px;
 /*     width: 70%; */
@@ -44,15 +46,16 @@
     z-index: -5;
     left: 63px;
     top: 36px;
+    border: 1px solid #28ff12;
   }
   #page-con{
     z-index: 0;
-    background-color: #2C7C86;
+    background-color: black;
     height: 280%;
     width: 100vw;
     position: absolute;
     left: 0;
-    top: 36px;
+    top: 34px;
   }
   header{
     z-index: 5;
@@ -64,20 +67,20 @@
   }
   .head-item-sel{
     padding: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', sans-serif;
     cursor: default;
-    background-color: #2C7C86;
+    background-color: black;
     color: white;
     user-select: none;
   }
   .head-item{
     padding: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', sans-serif;
     cursor: pointer;
     user-select: none;
   }
   .head-item:hover{
-    background-color: #2C7C86;
-    color: white;
+    background-color: black;
+    color: #28ff12;
   }
 </style>
